@@ -41,4 +41,28 @@
   &.luxury {
     background: var(--clr-darker-cyan);
   }
+
+  @media (min-width: 90em) {
+    &:first-child {
+      border-radius: 10px 0 0 10px;
+    }
+
+    &:last-child {
+      border-radius: 0 10px 10px 0;
+    }
+
+    padding: 5rem;
+
+    > img {
+      max-width: 6rem;
+    }
+
+    h2 {
+      font-size: var(--fs-300);
+    }
+
+    p {
+      margin-bottom: 6rem;
+    }
+  }
 }

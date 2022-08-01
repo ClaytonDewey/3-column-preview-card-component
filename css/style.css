@@ -3,6 +3,7 @@
 /* ------------------- */
 :root {
   /* font-sizes */
+  --fs-300: 3.5rem;
   --fs-200: 2.5rem;
   --fs-100: 0.9375rem;
   /* font-families */
@@ -357,6 +358,9 @@ body {
   background-color: var(--clr-gray);
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-100); }
+  @media (min-width: 90em) {
+    body {
+      --fs-100: 1.25rem; } }
 
 .text-bright {
   color: var(--clr-bright); }
@@ -394,6 +398,19 @@ body {
     background: var(--clr-dark-cyan); }
   .card.luxury {
     background: var(--clr-darker-cyan); }
+  @media (min-width: 90em) {
+    .card {
+      padding: 5rem; }
+      .card:first-child {
+        border-radius: 10px 0 0 10px; }
+      .card:last-child {
+        border-radius: 0 10px 10px 0; }
+      .card > img {
+        max-width: 6rem; }
+      .card h2 {
+        font-size: var(--fs-300); }
+      .card p {
+        margin-bottom: 6rem; } }
 
 .btn {
   display: flex;
@@ -411,15 +428,22 @@ body {
     background: transparent;
     color: var(--clr-white);
     border-color: var(--clr-white); }
+  @media (min-width: 90em) {
+    .btn {
+      width: 12rem; } }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: var(--ss-mobile);
-  max-width: 100%;
+  width: 100%;
+  max-width: var(--ss-mobile);
   background: var(--clr-white);
   margin: 2rem auto;
   border-radius: 10px; }
+  @media (min-width: 90em) {
+    .container {
+      flex-direction: row;
+      max-width: var(--ss-desktop); } }
 
 .attribution {
   font-size: 11px;
