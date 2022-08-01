@@ -36,10 +36,6 @@ body {
   background-color: var(--clr-gray);
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-100);
-
-  @media (min-width: 90em) {
-    --fs-100: 1.25rem;
-  }
 }
 
 .text-bright {
