@@ -30,16 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-### Links
-
-- Solution URL: [claytondewey.github.io/product-preview-card-component/](https://claytondewey.github.io/product-preview-card-component/)
+- Solution URL: [https://claytondewey.github.io/3-column-preview-card-component/](https://claytondewey.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -53,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-I was using this as a way to try out some new CSS techniques I had recently learned.
+As with my first challenge, I'm just working on putting some new CSS I learned to use.
 
 ## Author
 
