@@ -1,0 +1,24 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+:root {
+  /* font-sizes */
+  --fs-200: 1.75rem;
+  --fs-100: 0.875rem;
+
+  /* font-families */
+  --ff-sans-normal: 'Lexend Deca', sans-serif;
+  --ff-cursive: 'Big Shoulders Display', cursive;
+
+  /* page sizes */
+  --ss-mobile: 21.4375em;
+  --ss-desktop: 90em;
+
+   /* colors */
+   --clr-bright: hsl(31, 77%, 52%);
+   --clr-dark-cyan: hsl(184, 100%, 22%);
+   --clr-darker-cyan: hsl(179, 100%, 13%);
+
+   --clr-white: hsla(0, 0%, 100%, 0.75);
+   --clr-gray: hsl(0, 0%, 95%);
+}
