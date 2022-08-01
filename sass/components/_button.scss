@@ -1,0 +1,20 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-white);
+  width: 10rem;
+  height: 3.5rem;
+  padding-inline: 2rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: background .25s ease-in-out, color .25s ease-in-out;
+
+  &:hover,
+  &:active {
+    background: transparent;
+    color: var(--clr-white);
+    border-color: var(--clr-white);
+  }
+}

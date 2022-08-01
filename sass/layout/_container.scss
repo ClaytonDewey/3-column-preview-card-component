@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: var(--ss-mobile);
+  max-width: 100%;
+  background: var(--clr-white);
+  margin: 2rem auto;
+  border-radius: 10px;
+}

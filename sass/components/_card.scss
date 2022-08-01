@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 4rem;
+  color: var(--clr-white);
+
+  &:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+
+  &:last-child {
+    border-radius: 0 0 10px 10px;
+  }
+
+  > img {
+    max-width: 4.5rem;
+  }
+
+  h2 {
+    font-family: var(--ff-cursive);
+    font-size: var(--fs-200);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-block: 2rem;
+  }
+
+  p {
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  }
+
+  &.sedan {
+    background: var(--clr-bright);
+  }
+
+  &.suv {
+    background: var(--clr-dark-cyan);
+  }
+
+  &.luxury {
+    background: var(--clr-darker-cyan);
+  }
+}

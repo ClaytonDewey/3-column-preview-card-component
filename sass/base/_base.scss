@@ -12,17 +12,40 @@ h4,
 h5,
 h6,
 p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 /* set up the body */
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
   background-color: var(--clr-gray);
   font-family: var(--ff-sans-normal);
+  font-size: var(--fs-100);
+}
+
+.text-bright {
+  color: var(--clr-bright);
+}
+
+.text-dark-cyan {
+  color: var(--clr-dark-cyan);
+}
+
+.text-darker-cyan {
+  color: var(--clr-darker-cyan);
 }
